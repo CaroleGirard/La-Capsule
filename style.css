@@ -32,3 +32,29 @@ color: #2c3e50;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
  }
+ .card {
+     display: flex;
+     flex-direction: column;
+     border: 1px solid #DFDFDF;
+     font-family: 'Roboto', sans-serif;
+     width: 50vh;
+    
+ }
+ .image {
+    display: flex;
+    background-image: url("/Landscape.JPG");
+    height: 50vh;
+    background-size: cover;
+  }
+  .card-content {
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+  .bouton {
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 5%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #2ecc71;
+    padding: 5px;
+}
