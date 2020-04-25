@@ -19,7 +19,7 @@ color: #2c3e50;
     
 }
 .list-group-item {
-    display: flex;
+    list-style-type: none;
     border: 1px solid #DFDFDF;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
@@ -56,4 +56,24 @@ color: #2c3e50;
     font-family: 'Roboto', sans-serif;
     border: 1px solid #2ecc71;
     padding: 5px;
+}
+
+@media (min-width: 701px) {
+    .navbar {
+        display: flex;
+        background-color: #f8f9fa;
+      }
+}
+@media (max-width: 700px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f9fa;
+      }
+}
+
+.navbar-item {
+    list-style-type: none;
+    padding: 20px;
+    color: #2c3e50;
 }
